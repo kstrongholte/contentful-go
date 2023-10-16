@@ -1,10 +1,15 @@
-module github.com/contentful-labs/contentful-go
+module github.com/kstrongholte/contentful-go
 
-go 1.12
+go 1.21.3
 
 require (
-	github.com/davecgh/go-spew v1.1.0
-	github.com/pmezard/go-difflib v1.0.0
-	github.com/stretchr/testify v1.1.4
+	github.com/stretchr/testify v1.8.4
 	moul.io/http2curl v1.0.0
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/smartystreets/goconvey v1.8.1 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
